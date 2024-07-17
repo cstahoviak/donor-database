@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "donordatabase"
+version = "2024.0.0"
+dependencies = [
+    "pandas",
+    "pyqt6",
+    "matplotlib",
+    "numpy"
+]
+requires-python = ">=3.8"
+authors= [
+    {name = "Carl Stahoviak", email = "carlcstahoviak@gmail.com"}
+]
+maintainers = [
+    {name = "Carl Stahoviak", email = "carlcstahoviak@gmail.com"}
+]
+description="A custom database for managing donors and payment information."
+readme = "README.md"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/cstahoviak/donor-database"

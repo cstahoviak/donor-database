@@ -19,7 +19,7 @@ from donordatabase import DonorDatabase, DonorLevel
 
 if __name__ == '__main__':
     # Create the Donor Database
-    directory = Path('../data')
+    directory = Path(__file__).resolve().parent.parent / 'data'
     db = DonorDatabase(filepath=glob.glob(str(directory / '*.csv')))
 
     # How much time do the payments in the database span?
