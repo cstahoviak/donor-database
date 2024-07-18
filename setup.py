@@ -18,7 +18,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="donordatabase",
-    version="0.0.0",
+    version="2024.0.0",
     description="A custom database for managing donors and payment information.",
     package_dir={"": "src"},
     # packages=find_packages(where="src"),
@@ -30,6 +30,7 @@ setup(
     author_email="carlcstahoviak@gmail.com",
     license="MIT",
     install_requires=["pandas",
+                      "pyqt6",
                       "matplotlib",
                       "numpy"],
     python_requires=">=3.8"
